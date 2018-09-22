@@ -24,9 +24,6 @@ function setup() {
 	textAlign(CENTER);
 }
 
-function draw() {
-	ellipses(50,50,80,80);
-}
 
 function rep() {
 	var num = parseInt(input.value(), 10);
