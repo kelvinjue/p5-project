@@ -26,6 +26,8 @@ function setup() {
 
 
 function rep() {
+	clear();
+	background(160);
 	var num = parseInt(input.value(), 10);
 	var d = decimal(num);
 	var b = binary(num);
