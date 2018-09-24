@@ -64,7 +64,7 @@ function decimal(x) {
 		i += 1;
 
 	}
-	string = num + ' = ' + string;
+	string = "decimal: " + num + ' = ' + string;
 	return string;
 }
 
@@ -83,8 +83,8 @@ function binary(x) {
 		x = Math.floor(x / 2);
 		i += 1;
 
-	}
-	string = num + ' = ' + string;
+	} 
+	string = "binary: " + num + ' = ' + string;
 	return string;
 }
 
@@ -104,7 +104,7 @@ function hexi(x) {
 		i += 1;
 
 	}
-	string = num + ' = ' + string;
+	string = "hex: " + num + ' = ' + string;
 	return string;
 }
 
